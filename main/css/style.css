@@ -1,0 +1,142 @@
+/*   header   */
+.wrapper
+{
+    
+    position: fixed;
+    
+    width: 100%;
+    margin: 0 auto;
+    background: #892422;
+    size: cover;
+}
+
+header.top_header .wrapper{
+    display: flex;
+    height: 10%;
+    border-top: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+}
+.img-logo{
+    max-height: 15vh;
+    display: block;
+    margin: 0 auto; 
+}
+.img-logo-pg1{
+    max-height: 35vh;
+    display: block;
+    margin: 0 auto; 
+}
+
+/*color page*/
+.color-button{
+    height: 7vh;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+	/* text */
+	font-style: normal;
+	
+	font-size: calc(0.40*10vh);
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fdfdfd;
+	text-decoration:none;
+	justify-content: center;
+    letter-spacing: 3px;
+	
+	/* rectangle */
+	background: #6d6d6d;
+	mix-blend-mode: normal;
+	box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border:2px solid #FFFFFF;
+}
+.color-button:hover{
+	/* rectangle */
+	background: #212121;
+	color: #FFFFFF;
+}
+
+/*   page one   */
+.page1{
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background-color: #212121;    
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+	min-height:100vh;
+    display: inline-block;
+    	
+	/*text*/
+    font-size: calc(0.40*10vh);
+	color: #fdfdfd;
+	text-align: center;
+    letter-spacing: 3px;
+}
+.page1 .buttons{
+    width: 60vw;
+	height: 60vh;
+    /*margin-top: 35vh;
+    margin-left: 20%;*/
+	margin: 0 auto;
+	/*overflow-y:scroll;*/
+}
+.buttons-40{
+	width:40vw;
+	height: 60vh;
+	margin: 3% auto;
+}
+.page1 .button-1{
+    height: 10vh;
+    margin-bottom: 7vh;
+	/* text */
+	font-style: normal;
+	
+	font-size: calc(0.40*10vh);
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fdfdfd;
+	text-decoration:none;
+	justify-content: center;
+    letter-spacing: 10px;
+	
+	/* rectangle */
+	background: #000000;
+	mix-blend-mode: normal;
+	box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border:2px solid #6d6d6d;
+}
+.page1 .button-1:hover{
+	/* rectangle */
+	background: #212121;
+	color: #FFFFFF;
+}
+
+body::-webkit-scrollbar {
+	width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #ffffff;
+	border-radius: 10px;
+}
